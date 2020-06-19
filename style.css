@@ -233,7 +233,7 @@ input, select, textarea {
 
 
 /* Botón */
-#btn {
+.btn {
     padding: var(--size-litl) 0;
     margin: var(--size-med) 0;
     width: 100%;
@@ -247,7 +247,7 @@ input, select, textarea {
     border-color: var(--clr-main);
     transition: 0.8s;
 }
-#btn:hover {
+.btn:hover {
     --clr-tird: #e9b303;
 
     background-color: var(--clr-tird);
