@@ -92,9 +92,11 @@ body {
     justify-content: center;
 }
 #title {
+    font-size: 45px;
 }
 #description {
     font-family: var(--fnt-fml-p);
+    font-size: var(--fnt-sz-big);
     align-self: center;
 }
 
