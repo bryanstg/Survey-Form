@@ -55,12 +55,13 @@
 body {
     margin: 0;
     padding: 0;
-    color: var(--clr-fnt)
+    color: var(--clr-fnt);
 }
- h1 {
-     font-family: var(--fnt-fml-title);
- }
+h1 {
+    font-family: var(--fnt-fml-title);
+}
 .main-box {
+    background-image: url(svg/trigonometric2.svg);
     width: 100%;
     height: auto;
     display: grid;
@@ -97,6 +98,7 @@ body {
     font-size: 55px;
     margin: 0 0 15px 0;
     letter-spacing: 1px;
+    background-color: var(--clr-fnt);
 
 }
 #description {
@@ -105,12 +107,14 @@ body {
     color: var(--clr-sec);
     font-size: var(--fnt-sz-big);
     margin: 0 0 20px 0;
+    background-color: var(--clr-fnt);
 }
 
 #title-svg {
     width: 40vw;
     justify-self: center;
     align-self: center;
+    background-color: var(--clr-fnt);
     
 }
 
