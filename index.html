@@ -10,14 +10,15 @@
 <body>
     <main class="main-box">
         <div class="title-box">
-            <h1 id="title">Silicoding Formulario</h1>
-            <p id="description">Gracias por tomarte el tiempo </p>
+            <h1 id="title">Formulario Silicoding </h1>
+            <p id="description">¡Gracias por tomarte el tiempo! </p>
+            <img id="title-svg" src="svg/yellow.svg" alt="">
         </div>
         <form id="survey-form" action="formulario.html" method="GET">
             <div class="personal-info-box">
-                <h2 class="form-subtitle" >Información Personal</h2>
+                <h2 class="form-subtitle" id="personal-subtitle">Información Personal</h2>
                 <label class="personal-lbl" id="name-label" for="name">Nombre</label>
-                <input class="" id="name" type="text" placeholder="Inserta tu nombre" name="name" required>
+                <input class="personal-input" id="name" type="text" placeholder="Inserta tu nombre" name="name" required>
     
                 <label class="personal-lbl" for="apellido">Apellido</label>
                 <input class="personal-input" id="apellido" type="text" placeholder="Inserta tu apellido" name="apellido" required>
@@ -294,12 +295,20 @@
                 </select>
             </div>
 
-            <div class="">
-                <h2 class="form-subtitle">¿Qué temas te gustaría ver más a menudo?</h2>
-                <label for="trabajo-it"><input type="checkbox" name="espect" id="trabajo-it">Trabajo en IT</label>
-                <label for="calidad"><input type="checkbox" name="espect" id="calidad">Código de calidad</label>
-                <label for="habilidades"><input type="checkbox" name="espect" id="habilidades">Habilidades blandas</label>
-                <label for="lenguaje-prog"><input type="checkbox" name="espect" id="lenguje-prog">Lenguajes de programación</label>
+            <div class="temas-box">
+                <h2 class="form-subtitle" id="tema-subtitle">¿Qué temas te gustaría ver más a menudo?</h2>
+
+                <input class="tema-input" type="checkbox" name="espect" id="trabajo-it">
+                <label class="tema-lbl" for="trabajo-it">Trabajo en IT</label>
+
+                <input class="tema-input" type="checkbox" name="espect" id="calidad">
+                <label class="tema-lbl" for="calidad">Código de calidad</label>
+
+                <input class="tema-input" type="checkbox" name="espect" id="habilidades">
+                <label class="tema-lbl" for="habilidades">Habilidades blandas</label>
+
+                <input class="tema-input" type="checkbox" name="espect" id="lenguje-prog">
+                <label class="tema-lbl" for="lenguaje-prog">Lenguajes de programación</label>
             </div>
 
             <div class="opinion-box">
@@ -307,7 +316,7 @@
                 <textarea name="comentarios" id="text-area" cols="30" rows="10"></textarea>
             </div>
 
-            <button type="submit">Enviar</button>
+            <button id="btn" type="submit">Enviar</button>
         </form>
         <footer class="social-box">
             <img src="" alt="">
