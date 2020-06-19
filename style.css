@@ -41,7 +41,7 @@
     --clr-fnt: #fff;
 
     /* Spaccing Variables */
-    --size-big: 2rem;
+    --size-big: 2.5rem;
     --size-med: 1.5rem;
     --size-smll: 1rem;
     --size-litl: 0.5rem;
@@ -67,7 +67,7 @@ body {
     grid-template-columns: 1fr 1fr;
     align-self: center;
     justify-items: center;
-    background-color: var(--clr-main);
+    background-color: #ddd8d8;
     margin: 0;
 }
 
@@ -81,6 +81,7 @@ body {
     font-size: var(--fnt-sz-smll);
     height: 100vh;
     width: 50%;
+    
     position: fixed;
     right: 0;
     bottom: 0;
@@ -92,16 +93,25 @@ body {
     justify-content: center;
 }
 #title {
+    color: var(--clr-sec);
+    font-size: 55px;
+    margin: 0 0 15px 0;
+    letter-spacing: 1px;
+
 }
 #description {
     font-family: var(--fnt-fml-p);
     align-self: center;
+    color: var(--clr-sec);
+    font-size: var(--fnt-sz-big);
+    margin: 0 0 20px 0;
 }
 
 #title-svg {
     width: 40vw;
     justify-self: center;
     align-self: center;
+    
 }
 
  /* -------------------Formulario---------------- */
@@ -148,10 +158,8 @@ input, select, textarea {
  .personal-info-box {
      margin: 0;
  }
- .personal-lbl{
+ .personal-lbl {
     margin: var(--size-litl);
- }
- .personal-input {
  }
 
 
